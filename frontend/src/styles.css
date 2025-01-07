@@ -1,0 +1,115 @@
+/* Light Mode (Default) */
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #f5f5f5; /* Off-white */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .App {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ff6600; /* Orange */
+    color: white;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .logo {
+    height: 50px;
+  }
+  
+  .dark-mode-toggle {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .intro {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .assistant-img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+  }
+  
+  .intro p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .query-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 300px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff6600; /* Orange */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .response {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Dark Mode */
+  .dark-mode {
+    background-color: #333;
+    color: #f5f5f5;
+  }
+  
+  .dark-mode header {
+    background-color: #444;
+  }
+  
+  .dark-mode .intro p {
+    color: #ddd;
+  }
+  
+  .dark-mode .response {
+    background-color: #444;
+    color: #f5f5f5;
+  }
