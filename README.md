@@ -6,17 +6,17 @@ Meet **NIA** (Neural Intelligent Aide), your new AI-powered sidekick! NIA is her
 
 ## Features 🚀
 
-💪🏽 **Google Calendar Integration**:
+
+ - **Google Calendar Integration**:
   - Create, edit, and delete events like a pro.
   - Fetch upcoming events and reminders so you never miss a beat.
-💪🏽 **Notes Management**:
+ - **Notes Management**:
   - Add, view, and manage notes effortlessly.
-💪🏽 **Natural Language Processing**:
+ - **Natural Language Processing**:
   - Ask NIA anything, and it’ll respond like a champ.
-💪🏽 **Task Automation**:
+ - **Task Automation**:
   - Schedule tasks, set reminders, and optimize your productivity.
-💪🏽 **Dark Mode**:
-  - A sleek, user-friendly interface with a dark mode option for night owls. 🌙
+
 
 ---
 
